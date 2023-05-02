@@ -1,0 +1,81 @@
+.login {
+  display: flex;
+  height: 100vh;
+}
+
+/* LEFT */
+.left {
+  width: 45rem;
+  min-width: 25rem;
+  background-color: #1c5a82;
+  color: white;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  height: 100vh;
+  padding: 4rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left h1 {
+  margin-bottom: 2rem;
+  letter-spacing: 5px;
+}
+
+/* RIGHT */
+.right {
+  width: 100%;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  min-width: 25rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* background-image: url("/src/assets/qqquad.svg"); */
+  /* background-repeat: no-repeat; */
+  /* opacity: 0.5; */
+}
+
+
+.right img {
+  width: 14rem !important;
+  /* position: absolute; */
+}
+.right h1 {
+  font: inherit;
+  color: black;
+  font-weight: bold;
+}
+
+.right .title h1 {
+  font-size: 65px;
+  margin-top: 0.5rem;
+  letter-spacing: 25px;
+  margin-left: 25px;
+  line-height: 55px;
+}
+
+.title h1 span:first-child {
+  color: #1c5a82;
+  -webkit-text-stroke: 2px black;
+}
+
+.title h1 span:last-child {
+  color: #f6821e;
+  -webkit-text-stroke: 2px black;
+}
+
+.right .divider {
+  background: black;
+  height: 1px;
+  width: 14rem;
+  margin: 0.5rem 0 0.5rem;
+}
+
+.right .second_line h1 {
+  font-size: 32px;
+  font-weight: 100;
+}

@@ -1,0 +1,6 @@
+.dashboard {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-width: 84rem;
+}

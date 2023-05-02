@@ -1,0 +1,80 @@
+.form_controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form_controls .form_control {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form_controls .form_control input,
+.form_controls .form_control label {
+  display: block;
+}
+
+.form_controls .form_control label {
+  margin-bottom: 0.5rem;
+  letter-spacing: 3px;
+}
+
+.form_controls .form_control input {
+  font-family: sans-serif;
+  font-size: 24px;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  max-width: 100%;
+  border-radius: 10px;
+  transition: 0.1s ease-in;
+}
+
+.form_controls .form_actions {
+  margin-bottom: 2rem;
+}
+
+.form_controls .form_actions button {
+  font: inherit;
+  font-size: 24px;
+  background-color: white;
+  border: none;
+  outline: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.1s ease-in;
+}
+
+.form_controls .form_control input:focus,
+.form_controls .form_control input:hover,
+.form_controls .form_actions button:hover,
+.form_controls .form_actions button:focus {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 0 0 black;
+}
+
+.form_controls a {
+  text-decoration: none;
+  color: white;
+}
+.form_controls a:hover,
+.form_controls a:focus {
+  text-shadow: 5px 5px 10px black;
+  font-weight: bold;
+  /* transform: scale(5) !important; */
+}
+
+.form_controls .form_control input,
+.form_controls button {
+  box-shadow: 7px 7px 0px 0px rgba(246, 130, 30, 0.75);
+}
+
+.form_controls p {
+  margin-top: 7rem;
+}
+
+.credential {
+  margin-top: 1rem;
+}

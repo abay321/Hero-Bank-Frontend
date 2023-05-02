@@ -1,0 +1,17 @@
+.pinInput {
+  text-align: center !important;
+  margin-bottom: 1rem !important;
+  font-size: 32px !important;
+  /* padding: 0.5rem !important; */
+
+  caret-color: transparent;
+  -webkit-animation: none;
+  -moz-animation: none;
+  -ms-animation: none;
+  animation: none;
+}
+
+.pinInput:focus {
+  border: 1px solid black !important;
+  box-shadow: 5px 5px 0 0 black !important;
+}

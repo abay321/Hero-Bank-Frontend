@@ -1,0 +1,40 @@
+.Pin {
+  /* margin-bottom: 1.5rem; */
+}
+
+.Pin .otpBox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Pin .otpBox .control {
+  width: 50px;
+  font-size: 32px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 1px;
+  border: 2px solid #55525c;
+  background: #0b1230;
+  background: white;
+  font-weight: bold;
+  color: black;
+  /* outline: none; */
+  transition: all 0.1s;
+}
+
+.Pin .otpBox input:focus {
+  border: 2px solid #27ffa9;
+  border: 2px solid black;
+  box-shadow: 0 0 2px 2px #27ffd76a;
+  box-shadow: 0 0 2px 2px #F6821E;
+}
+
+.Pin .otpBox .control:hover {
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.Pin .otpBox .space {
+  margin-right: 1rem;
+}

@@ -1,0 +1,39 @@
+.footer {
+    padding: 10px;
+    display: flex;
+    border-top: 1px solid black;
+    border-top: 0.1px solid black !important;
+    background-color: white;
+  }
+  
+  .footer ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  
+  .footer ul li {
+    background-color: #f6821e;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    transition: 0.2s;
+    color: black;
+    color: white;
+    border: 2px solid white;
+    border: 2px solid rgb(77, 75, 75);
+    
+  }
+  
+  .footer ul li:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 2px 0 0 black;
+    border: 2px solid white;
+    border: 2px solid black;
+  }
+  
+  
